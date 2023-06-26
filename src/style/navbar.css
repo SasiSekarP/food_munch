@@ -1,0 +1,65 @@
+.logoContainer{
+    width: 10rem;
+}
+
+.navbarContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: rgb(185, 183, 183) 0px 0px 5px;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+    top: 0px;
+    background-color: white;
+}
+
+.navlink{
+    margin: 0px 1rem 1rem;
+}
+
+.navlink:hover{
+    color: blue;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburgerMenuContainer{
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    .linkContainer{
+        display: none;
+    }
+
+    .divhamburgerMenu{
+        border: 1px solid blue;
+        padding: 5px 5px 4px;
+        border-radius: 3px;
+    }
+
+    .hamburgerMenuContainer{
+        position: relative;
+        display: block;
+    }
+
+    .hamburgerMenuContainerDropDown{
+        position: absolute;
+        background-color: white;
+        z-index: 2;
+        right: 0px;
+        top: 4.5rem;
+    }
+
+    .hamburgerMenuContainerNavlink{
+        border-bottom: 1px solid black;
+        width: 250px;
+        padding: 10px;
+    }
+}

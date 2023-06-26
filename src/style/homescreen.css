@@ -1,0 +1,74 @@
+.homeScreen{
+    width: 100%;
+    height: 47rem;
+    margin-top: 6.5rem;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeScreenHeading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.homeScreenHeading2{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.buttonrow{
+    display: flex;
+}
+
+.homeScreenBtn{
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 2rem 10px;
+}
+
+.tranperantBtn{
+    background-color: transparent;
+    color: gold;
+    border: rgb(209, 152, 9) 2px solid;
+}
+
+.yellowBtn{
+    background-color: rgb(209, 152, 9);
+    color: white;
+}
+
+@media screen and (max-width: 425px) {
+    .homeScreen{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .homeScreenHeading{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .homeScreenHeading2{
+        font-size: 1rem;
+    }
+
+    .buttonrow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .homeScreenBtn{
+        margin-bottom: 1em;
+    }
+}

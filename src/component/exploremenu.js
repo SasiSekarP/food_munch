@@ -37,7 +37,7 @@ const Exploremenu = () => {
   ];
   return (
     <div className="goldenContainer" id="ExploreMenu">
-      <div className="goldenContainerHeading1">Why Choose Us?</div>
+      <div className="goldenContainerHeading1">Explore Menu</div>
       <div className="menucardContainer">
         {menudata.map((data) => {
           return (

@@ -1,0 +1,42 @@
+.menuCardImg{
+    border-radius: 1rem;
+}
+
+.menuCard{
+    padding: 1rem;
+    width: 250px;
+    box-shadow: rgb(209, 207, 207) 0px 0px 5px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.menucardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuCardTitle{
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem 0px;
+    cursor: pointer;
+}
+
+.viewAll{
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.viewAll:hover{
+    text-decoration: underline #d0b200;;
+}

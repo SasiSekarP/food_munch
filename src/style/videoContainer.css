@@ -1,0 +1,33 @@
+.videoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 10rem;
+    width: 100%;
+}
+
+.videoContainerBackgroundColor{
+    background-color: #f9fbfe;
+}
+
+.videoContainerLeft{
+    width: 100%;
+    max-width: 400px;
+    padding: 0px 15px;
+}
+
+.videoContainerRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:426px) {
+    .videoContainer{
+        padding: 0px;
+    }
+
+    .videoContainerRight{
+        margin: 2rem;
+    }
+}

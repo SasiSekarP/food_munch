@@ -17,7 +17,7 @@ const GoldenContainer = () => {
     },
   ];
   return (
-    <div className="goldenContainer">
+    <div className="goldenContainer goldenContainerBackgroundColor">
       <div className="goldenContainerHeading1">Why Choose Us?</div>
       <div className="goldenContainerHeading2">
         We use both original recipes and classic versions of famous food items.

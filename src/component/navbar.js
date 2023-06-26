@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="logoContainer">
         <img
           alt="logImg"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxTZmj0VxIFQAEnoB1Jyd4I9kNrSvaSV5Qg&usqp=CAU"
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png"
         ></img>
       </div>
       <div className="linkContainer">

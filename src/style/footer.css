@@ -1,0 +1,31 @@
+.footerContainer{
+    background-color: #0d2436;
+    color: #959ead;
+    padding: 1rem 0px 0px;
+}
+
+.logoContainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerheading{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footerpara{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0px 3rem;
+}
+
+.logo1{
+    width: 5rem;
+}

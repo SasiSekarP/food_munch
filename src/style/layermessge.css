@@ -1,0 +1,42 @@
+.flyingMessage{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.messageBox{
+    min-width: 200px;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: rgb(203, 201, 201) 0px 0px 5px;
+}
+
+.row{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.flymessageBtn{
+    font-size: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.flymessageheader{
+    color: goldenrod;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

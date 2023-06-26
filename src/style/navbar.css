@@ -1,19 +1,20 @@
 .logoContainer{
-    width: 10rem;
+    width: 5rem;
+    margin: 1rem;
 }
 
 .navbarContainer{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     box-shadow: rgb(185, 183, 183) 0px 0px 5px;
     position: fixed;
     z-index: 1;
-    background-color: transparent;
     top: 0px;
     background-color: white;
+    padding: 0px 10rem;
 }
 
 .navlink{
@@ -61,5 +62,13 @@
         border-bottom: 1px solid black;
         width: 250px;
         padding: 10px;
+    }
+
+    .navbarContainer{
+        padding: 10px 1.5rem;
+    }
+
+    .logoContainer{
+        margin: 0px;
     }
 }

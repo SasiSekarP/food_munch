@@ -1,0 +1,30 @@
+.followContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 3rem 3rem 0rem;
+}
+
+.MediaContainer{
+    display: flex;
+    font-size: 25px;
+    color: goldenrod;
+    margin-bottom: 2rem;
+}
+
+.iconbackground{
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 242, 218);
+}
+
+@media screen and (max-width: 426px) {
+    .followContainer{
+        margin: 3rem 0px;
+    }
+}

@@ -1,0 +1,39 @@
+.greetingContainerImg{
+    width: 100%;
+    max-width: 300px;
+    padding: 0px 15px;
+}
+
+.greetingContainerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.greetingBtn{
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(209, 152, 9);
+    color: white;
+    border: none;
+}
+
+.greetingContainer{
+    background-color: rgb(242, 223, 177);
+    display: flex;
+    padding: 10rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 426px) {
+    .greetingContainer{
+        padding: 2rem 1rem;
+    }
+
+    .greetingContainerLeft{
+        margin-bottom: 2rem;
+    }
+}

@@ -6,7 +6,7 @@ const PaymentContainer = () => {
     "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png",
   ];
   return (
-    <div className="videoContainer paymentContainer">
+    <div className="videoContainer paymentContainer" id="Delivery&Payment">
       <div className="videoContainerRight">
         <div className="goldenContainerHeading1">Delivery and Payment</div>
         <p className="goldenContainerHeading2">

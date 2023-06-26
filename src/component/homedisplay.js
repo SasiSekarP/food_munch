@@ -1,6 +1,6 @@
 const Homedisplay = () => {
   return (
-    <div className="homeScreen">
+    <div className="homeScreen" id="whyUs">
       <div className="homeScreenHeading">Get Delicious Food Anytime</div>
       <div className="homeScreenHeading2">Eat Smart & Healthy</div>
       <div className="buttonrow">

@@ -1,5 +1,6 @@
 import { RxRows } from "react-icons/rx";
 import { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [hamburgerBoolean, setHamburgerBoolean] = useState(true);
@@ -12,10 +13,18 @@ const Navbar = () => {
         ></img>
       </div>
       <div className="linkContainer">
-        <div className="navlink">Why Choose Us?</div>
-        <div className="navlink">Explore Menu</div>
-        <div className="navlink">Delivery & Payment</div>
-        <div className="navlink">Follow Us</div>
+        <ScrollLink to="whyUs" duration={500} className="navlink">
+          Why Choose Us?
+        </ScrollLink>
+        <ScrollLink to="ExploreMenu" duration={500} className="navlink">
+          Explore Menu
+        </ScrollLink>
+        <ScrollLink to="Delivery&Payment" duration={500} className="navlink">
+          Delivery & Payment
+        </ScrollLink>
+        <ScrollLink to="FollowUs" duration={500} className="navlink">
+          Follow Us
+        </ScrollLink>
       </div>
       <div className="hamburgerMenuContainer">
         <button
@@ -29,12 +38,24 @@ const Navbar = () => {
         </button>
         {hamburgerBoolean || (
           <div className="hamburgerMenuContainerDropDown">
-            <div className="hamburgerMenuContainerNavlink">Why Choose Us?</div>
-            <div className="hamburgerMenuContainerNavlink">Explore Menu</div>
-            <div className="hamburgerMenuContainerNavlink">
+            <ScrollLink to="whyUs" className="hamburgerMenuContainerNavlink">
+              Why Choose Us?
+            </ScrollLink>
+            <ScrollLink
+              to="ExploreMenu"
+              className="hamburgerMenuContainerNavlink"
+            >
+              Explore Menu
+            </ScrollLink>
+            <ScrollLink
+              to="Delivery&Payment"
+              className="hamburgerMenuContainerNavlink"
+            >
               Delivery & Payment
-            </div>
-            <div className="hamburgerMenuContainerNavlink">Follow Us</div>
+            </ScrollLink>
+            <ScrollLink to="FollowUs" className="hamburgerMenuContainerNavlink">
+              Follow Us
+            </ScrollLink>
           </div>
         )}
       </div>

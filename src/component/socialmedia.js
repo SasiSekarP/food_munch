@@ -2,7 +2,7 @@ import { BsTwitter, BsInstagram, BsFacebook } from "react-icons/bs";
 
 const SocialMedia = () => {
   return (
-    <div className="followContainer">
+    <div className="followContainer" id="FollowUs">
       <div className="goldenContainerHeading1">Follow Us</div>
       <div className="MediaContainer">
         <div className="iconbackground">

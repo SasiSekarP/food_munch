@@ -1,0 +1,67 @@
+.goldenContainer{
+    padding: 3rem 10rem;
+    font-size: 18px;
+    background-color: #f9fbfe;
+}
+
+.goldenContainerHeading1{
+    color: #183b56;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.goldenContainerHeading2{
+    color: #5a7184;
+    margin: 1rem 0px;
+    font-size: 18px;
+}
+
+.goldenCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    box-shadow: rgb(202, 202, 245) 0px 0px 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 20rem;
+}
+
+.goldenCardContainerHeader{
+    font-size: 25px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.goldenCardContainerPara{
+    color: #183b56;
+    text-align: center;
+    margin: 1rem 0px;
+}
+
+.goldenCardContainerImg{
+    width: 5rem;
+}
+
+.goldenCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:426px) {
+    .goldenContainer{
+        padding: 1rem;
+        font-size: 18px;
+    }
+
+    .goldenCard{
+        width: 250px;
+        margin: 1rem;
+        height: auto;
+    }
+    
+}
